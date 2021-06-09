@@ -1,0 +1,16 @@
+<h3>Test mse = {{ value }}<h3>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Predictions</title>
+</head>
+<body>
+
+{% for table in tables %}
+            {{ table|safe }}
+{% endfor %}
+</body>
+</html>
+
